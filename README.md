@@ -4,5 +4,5 @@ If you want to run these code, you need to download paho-mqtt library.
 (I use anaconda virtual environment.)
 
 ## Getting started
-### first, run subscribe.py
-### second, run publish.py
+first, run subscribe.py
+second, run publish.py
