@@ -9,6 +9,6 @@ pip install paho-mqtt
 
 1) change BROKER_IP to yours.
 
-2) run client_ping.py
+2) run client1.py
 
-3) run client_pong.py
+3) run client2.py
