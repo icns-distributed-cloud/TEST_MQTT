@@ -16,7 +16,7 @@ def on_message(client, userdata, message):
     print("message qos=", message.qos)
     print("message retain flag=", message.retain)
 
-
+    
 if __name__ == "__main__":
     client = mqtt.Client("client")
     client.on_connect = on_connect
