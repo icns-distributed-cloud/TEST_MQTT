@@ -23,7 +23,7 @@ def on_message(client, userdata, message):
 
 
 if __name__ == "__main__":
-    client = mqtt.Client("client")
+    client = mqtt.Client("client1")
     client.on_connect = on_connect
     client.on_message = on_message
     client.connect(BROKER_IP, BROKER_PORT, 60)
