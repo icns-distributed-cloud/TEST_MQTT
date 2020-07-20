@@ -6,6 +6,9 @@ pip install paho-mqtt
 (I use anaconda virtual environment.)
 
 ## Getting started
-first, run subscribe.py
 
-second, run publish.py
+1) change BROKER_IP to yours.
+
+2) run client_ping.py
+
+3) run client_pong.py
